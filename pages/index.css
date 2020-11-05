@@ -27,25 +27,34 @@
 @import url(../blocks/places/place/__url-heading/place__url-heading.css);
 @import url(../blocks/places/place/__link/place__link.css);
 @import url(../blocks/places/place/__paragraph/place__paragraph.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__backrgound.css);
+@import url(../blocks/places/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/places/place/__another-margin/place__another-margin.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/intro/__list-item/_span-accent/intro__list-item_span-accent.css);
 @font-face {
-    font-family: 'Inter';
-    font-weight: normal;
-    src: url('../fonts/Inter-Regular.otf');
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    src: url('../fonts/Inter-Light.otf');
 }
 
 @font-face {
-    font-family: 'Inter';
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     src: url('../fonts/Inter-Bold.otf');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     src: url('../fonts/Inter-Black.otf');
+}
+
+ul {
+    margin: 0
 }
