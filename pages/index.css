@@ -28,6 +28,7 @@
 @import url(../blocks/places/place/__link/place__link.css);
 @import url(../blocks/places/place/__paragraph/place__paragraph.css);
 @import url(../blocks/places/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/places/place/__paragraph/_indent/place__paragraph_indent.css);
 @import url(../blocks/places/place/__another-margin/place__another-margin.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -36,6 +37,7 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link-container/footer__link-container.css);
 @import url(../blocks/intro/__list-item/_span-accent/intro__list-item_span-accent.css);
 @font-face {
     font-family: 'Inter', sans-serif;
@@ -57,4 +59,13 @@
 
 ul {
     margin: 0
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }

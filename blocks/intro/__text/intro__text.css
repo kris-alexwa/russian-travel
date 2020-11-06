@@ -8,3 +8,17 @@
     margin-top: 0;
     margin-bottom: 33px;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        width: 720px;
+        height: 208px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        width: 288px;
+        height: 520px;
+    }
+}

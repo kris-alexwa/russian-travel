@@ -1,7 +1,17 @@
 .intro {
     display: flex;
     flex-direction: column;
-    width: 690px;
-    height: 429px;
     margin-left: 148px;
+}
+
+@media screen and (max-width: 1280px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin-left: 24px;
+    }
 }
