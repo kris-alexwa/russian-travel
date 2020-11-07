@@ -67,4 +67,5 @@ body {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
