@@ -9,7 +9,7 @@
         width: fit-content;
     }
     
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
         .photo-grid {
             grid-template-columns: repeat(3, auto);
             grid-template-rows: repeat(4, auto);
@@ -17,7 +17,7 @@
         }
     }
     
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1023px) {
         .photo-grid {
             grid-template-columns: repeat(2, auto);
             grid-template-rows: repeat(6, auto);
@@ -27,7 +27,7 @@
         }
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         .photo-grid {
             grid-template-columns: repeat(1, auto);
             grid-template-rows: repeat(12, auto);
