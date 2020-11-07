@@ -37,7 +37,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link-container/footer__link-container.css);
-@import url(../blocks/intro/__list-item/_span-accent/intro__list-item_span-accent.css);
+@import url(../blocks/intro/__list-item-span/_accent/intro__list-item-span_accent.css);
 @font-face {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
