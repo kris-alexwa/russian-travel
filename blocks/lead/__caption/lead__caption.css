@@ -5,10 +5,10 @@
     margin-top: 8px;
     margin-bottom: 0;
     width: 158px;
-    height: 14px;
     letter-spacing: 0.1em;
     align-self: flex-start;
     margin-left: 0;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1279px) {

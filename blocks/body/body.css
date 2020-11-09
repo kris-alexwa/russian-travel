@@ -1,4 +1,4 @@
-body {
+.body {
     background-color: #2A2C2F;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -6,5 +6,4 @@ body {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
 }

@@ -4,8 +4,6 @@
         grid-template-rows: repeat(3, auto);
         gap: 16px;
         margin-top: 92px;
-        margin-left: auto;
-        margin-right: auto;
         width: fit-content;
     }
     
@@ -21,9 +19,6 @@
         .photo-grid {
             grid-template-columns: repeat(2, auto);
             grid-template-rows: repeat(6, auto);
-            gap: 14px;
-            margin-left: 24px;
-            margin-right: 24px;
         }
     }
     
