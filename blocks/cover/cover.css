@@ -2,10 +2,6 @@
     background-image: url(../../images/__background.jpg);
     background-size: cover;
     min-height: 740px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     position: relative;
     margin-top: 92px;
     margin-left: 48px;
@@ -34,6 +30,7 @@
         margin-left: 0;
         margin-right: 0;
         width: 100%;
+        min-height: 640px;
     }
 }
 
